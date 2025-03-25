@@ -7,7 +7,9 @@ export default function User({userPromise}){
 
 
     return(
+
         <div className="card">
+
             <h1>What is your name: {users.length}</h1>
 
 {/* Api loop korci  and api ar data call korci api added function diye*/}
@@ -17,3 +19,5 @@ export default function User({userPromise}){
         </div>
     )
 }
+
+
